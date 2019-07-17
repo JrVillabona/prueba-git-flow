@@ -1,0 +1,18 @@
+GlobalVars:
+  AllowedVariables:
+    - $driver
+    - $orderid
+    - $message
+    - $userid
+    - $email
+    - $app_path
+
+Metrics/LineLength:
+  Max: 115
+
+AllCops:
+  Exclude:
+    - 'features/support/env.rb'
+
+Style/Documentation:
+  Enabled: false

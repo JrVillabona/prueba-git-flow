@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'selenium-cucumber'
+gem 'selenium-webdriver'
+gem 'headless'
+gem 'cucumber'
+gem 'premailer'
+gem 'bundler'
+gem 'rspec'
+gem 'dotenv-rails'
+gem 'rubocop'
+gem 'forgery'
+gem 'faker'
