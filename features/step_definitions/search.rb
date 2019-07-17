@@ -7,7 +7,7 @@ Given('I enter a real {string} name in the searchbox') do |realclothes|
   enter_text(:name, realclothes, 'search_query')
 end
 
-When('I click the magnifying glass') do
+
   click(:name, 'submit_search')
 end
 
