@@ -7,11 +7,11 @@ Given('I enter a real {string} name in the searchbox') do |clothes|
   enter_text(:name, clothes, 'search_query')
 end
 
-When('I click the magnifying glass') do
+When('I click on the magnifying glass') do
   click(:name, 'submit_search')
 end
 
-And('The tittle of results have the word {string}') do |tittle|
+And('The tittle of results contains the word {string}') do |tittle|
   check_element_partial_text(:class, tittle, 'product-container', true)
   checksearchresults(:class, tittle, 'product-name')
 end
